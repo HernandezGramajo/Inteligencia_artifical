@@ -14,7 +14,7 @@ function test(state){
 					contador2++;
 					document.getElementById("estado1").innerHTML+="<br>Estado 1";
 					document.getElementById("estado1").innerHTML+="<br> ".concat("Empieza en A | Sucio en A | Sucion en B");
-					document.getElementById("imagen1").innerHTML='<img src="https://github.com/HernandezGramajo/Inteligencia_artifical/blob/main/img/estado1.png" />';
+					document.getElementById("imagen1").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado1.PNG" />';
 
 				}else if(contador==0){
 					state[0]="B";
@@ -23,7 +23,7 @@ function test(state){
 					contador++;
 					document.getElementById("estado2").innerHTML+="<br>Estado 2";
 					document.getElementById("estado2").innerHTML+="<br> ".concat("Empieza en B | Sucio en A | Sucion en B");
-					document.getElementById("imagen2").innerHTML='<img src="https://github.com/HernandezGramajo/Inteligencia_artifical/blob/main/img/estado2.png" />';
+					document.getElementById("imagen2").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado2.PNG" />';
 				} else if(contador==1){
 					state[0]="A";
 					state[1]="DIRTY";
@@ -31,7 +31,7 @@ function test(state){
 					contador++;
 					document.getElementById("estado3").innerHTML+="<br>Estado 3";
 					document.getElementById("estado3").innerHTML+="<br> ".concat("Empieza en A | Sucio en A | Limpio en B");
-					document.getElementById("imagen3").innerHTML='<img src="https://github.com/HernandezGramajo/Inteligencia_artifical/blob/main/img/estado3.png" />';
+					document.getElementById("imagen3").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado3.PNG" />';
 				} else if(contador==2){
 					state[0]="B";
 					state[1]="DIRTY";
@@ -39,7 +39,7 @@ function test(state){
 					contador++;
 					document.getElementById("estado4").innerHTML+="<br>Estado 4";
 					document.getElementById("estado4").innerHTML+="<br> ".concat("Empieza en B | Sucio en A | Limpio en B");
-					document.getElementById("imagen4").innerHTML='<img src="https://github.com/HernandezGramajo/Inteligencia_artifical/blob/main/img/estado4.png" />';
+					document.getElementById("imagen4").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado4.PNG" />';
 				}else if(contador==3){
 					state[0]="A";
 					state[1]="CLEAN";
@@ -47,7 +47,7 @@ function test(state){
 					contador++;
 					document.getElementById("estado5").innerHTML+="<br>Estado 5";
 					document.getElementById("estado5").innerHTML+="<br> ".concat("Empieza en A | Limpio en A | Sucio en B");
-					document.getElementById("imagen5").innerHTML='<img src="https://github.com/HernandezGramajo/Inteligencia_artifical/blob/main/img/estado5.png" />';
+					document.getElementById("imagen5").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado5.PNG" />';
 				}else if(contador==4){
 					state[0]="B";
 					state[1]="CLEAN";
@@ -55,7 +55,7 @@ function test(state){
 					contador++;
 					document.getElementById("estado6").innerHTML+="<br>Estado 6";
 					document.getElementById("estado6").innerHTML+="<br> ".concat("Empieza en B | Limpio en A | Sucio en B");
-					document.getElementById("imagen6").innerHTML='<img src="https://github.com/HernandezGramajo/Inteligencia_artifical/blob/main/img/estado6.png" />';
+					document.getElementById("imagen6").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado6.PNG" />';
 				}else if(contador==5){
 					state[0]="A";
 					state[1]="CLEAN";
@@ -63,7 +63,7 @@ function test(state){
 					contador++;
 					document.getElementById("estado7").innerHTML+="<br>Estado 7";
 					document.getElementById("estado7").innerHTML+="<br> ".concat("Empieza en A | Limpio en A | Limpio en B");
-					document.getElementById("imagen7").innerHTML='<img src="https://github.com/HernandezGramajo/Inteligencia_artifical/blob/main/img/estado7.png" />';
+					document.getElementById("imagen7").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado7.PNG" />';
 				}else if(contador==6){
 					state[0]="B";
 					state[1]="CLEAN";
@@ -71,7 +71,7 @@ function test(state){
 					contador++;
 					document.getElementById("estado8").innerHTML+="<br>Estado 8";
 					document.getElementById("estado8").innerHTML+="<br> ".concat("Empieza en B | Limpio en A | Limpio en B");
-					document.getElementById("imagen8").innerHTML='<img src="/img/estado8.png" />';
+					document.getElementById("imagen8").innerHTML='<img src="https://raw.githubusercontent.com/HernandezGramajo/Inteligencia_artifical/main/img/estado8.PNG" />';
 				}
 				else if(contador==7){
 					contador++;
